@@ -1,0 +1,16 @@
+PODS:
+  - SQKit (0.1.0)
+
+DEPENDENCIES:
+  - SQKit (from `../`)
+
+EXTERNAL SOURCES:
+  SQKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SQKit: 297a0ecd34c0ad935909bccedfa3c99b848df6cc
+
+PODFILE CHECKSUM: 34845e15608998901da1b69500fdc20fcf22dff2
+
+COCOAPODS: 1.2.1

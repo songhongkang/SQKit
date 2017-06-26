@@ -1,0 +1,6 @@
+framework module SQKit {
+  umbrella header "SQKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_SQKit_Example {
+  umbrella header "Pods-SQKit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "SQKit",
+  "version": "0.1.0",
+  "summary": "A short description of SQKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/wsong/SQKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wsong": "835151791@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/wsong/SQKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SQKit/Classes/**/*"
+}
