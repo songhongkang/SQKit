@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SQKit_Example' do
+  pod 'SQKit', :path => '../'
+
+  target 'SQKit_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
