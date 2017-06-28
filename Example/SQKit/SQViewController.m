@@ -7,8 +7,11 @@
 //
 
 #import "SQViewController.h"
+#import "SQKit-umbrella.h"
 
 @interface SQViewController ()
+
+@property (weak, nonatomic) IBOutlet UILabel *label;
 
 @end
 
@@ -17,6 +20,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.label.text = [NSJSONSerialization JSONObjectWithData:[@"{\"name\":null}" dataUsingEncoding:NSUTF8StringEncoding] options:NSJSONReadingMutableContainers error:nil][@"name"];
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     
 }
+
 @end

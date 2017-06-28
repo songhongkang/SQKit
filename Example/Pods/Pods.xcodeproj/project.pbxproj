@@ -7,56 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3EEEDC9D6C653A0EA5CBCE46C5AC5977 /* SQKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D601CA4A3283F59239D12842926E55F4 /* SQKit-dummy.m */; };
+		02D535B1F0626742A4A40261B4C89021 /* UILabel+SQExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 8026988913C51BDD991D6D71A180B5E8 /* UILabel+SQExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0337CBD69AF69A74B2A347F85CA94592 /* SQRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 68E994524C6AEAC1D23C6996CFFE3E62 /* SQRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D3D19C65B90921F2B4DAFA91779ECE7 /* UITextField+SQExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = F5DAE49C4E3F306451C132B318E9AB8A /* UITextField+SQExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12A03B3074F6E940EADEFCCE3AC0D278 /* NSUserDefaults+SQExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = A77CEBB61C74AC1FF4BB0A9D7FF5FCE1 /* NSUserDefaults+SQExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13EB5A36559CE2B701396951ED8DC740 /* NSObject+SQExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 8233BCFF425030CF95F6273779BFC7B6 /* NSObject+SQExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15644EF9207B54ABF5DE4E3CCB105A2D /* UIImage+SQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 94DBC2C04322DE405A77AC559B15ED13 /* UIImage+SQExtension.m */; };
+		22D8B4C740CF41322535192FA9CA1E86 /* SQIconButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E8BD6C7EB23C960E794C92DB8F281C5 /* SQIconButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A994F0408E99125D62BEF099151F5A0 /* NSString+SQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 42DF8666ECA0D849B8ED47A84413D1BA /* NSString+SQExtension.m */; };
+		2F161745E3846CB0A7C642410A0E49BD /* SQPush.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B896781846D239E48DC43BE869EBE1 /* SQPush.m */; };
+		3BA59B82F1675D2EFDDF0ED4D45E707E /* UICollectionReusableView+SQExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 9776766DE96DE7055C0989B40A33B57C /* UICollectionReusableView+SQExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FE204E19B4F28AC309BAA8972ACD926 /* SQAfficheView.m in Sources */ = {isa = PBXBuildFile; fileRef = E8F04BEE8E76CB74F08CCFD8C578C1D5 /* SQAfficheView.m */; };
+		4431D094AEAC9A393554D35CD618C00C /* UIView+SQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C19798A86EF6B4B09D17F4DCEFFEA4 /* UIView+SQExtension.m */; };
 		490C1F6AAF9B58B2BB96B478487D190E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		4F858BB669EB2D930F446298FEEBDC66 /* SQKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F79A34567C9D2E721C7B1A24717350C3 /* SQKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B9034295F3E2C426422E14A82FBD5BA /* NSTimer+SQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2992FBF02349B44D6B68728E2258A2FB /* NSTimer+SQExtension.m */; };
+		4BD96401FC41EED6749E6E3D1F80DDC6 /* SQAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFF50E19074A27B5BAA243CEF0664A9 /* SQAlertController.m */; };
+		545F44DD0F6758951CC06BA926EA8C80 /* UICollectionReusableView+SQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A4BD535C58888EAEC4D71A22974C6E /* UICollectionReusableView+SQExtension.m */; };
+		550ABE1248A61B1D7AFFBA2222129E8C /* UIButton+SQExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 2717BE44257CCFD98EE528BFFBB3D670 /* UIButton+SQExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BFB46B69A0596B1F4244545B2771CF2 /* NSString+SQExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 844592CECEB02C5986D86EDEECCFEF3D /* NSString+SQExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		605B184E3B6C6E373077B97669517AE5 /* SQNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7584869D14D6E29798A4A11A6D87DCCF /* SQNavigationController.m */; };
+		60F339A298C142CF8378BDF8CF0F50A3 /* NSNull+SQExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 43D40DF765FAE84850F37871AC393A63 /* NSNull+SQExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61630E096EA243C75B686657C522B550 /* UIView+SQExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 74FA4CB18B071F0E5E530BF2B69E2F32 /* UIView+SQExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64EC55F106CF895F22903BDF5FE5C4D7 /* SQKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F79A34567C9D2E721C7B1A24717350C3 /* SQKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64F8871ED1A1E5DE2A2A6D695D1A3D0F /* SQIconButton.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC79DE823219E6995FEA402F0BA9331 /* SQIconButton.m */; };
+		653BA2D3AE82394E4F85F52AB9CE2F93 /* SQTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = 534C0F58F2524CC78FAE9EBE1C967B16 /* SQTabBarController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		679EBCE2006C72DE90503F141075A1D6 /* SQTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F39E8B2F2A24A8BEF7749AFA8D797F8 /* SQTabBarController.m */; };
+		67A1F8B6FE27FD1EF991196B66F4AD83 /* UITextView+SQExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = A68331ABBA31B21BE71D85D1C7FD653A /* UITextView+SQExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C53B41D1EE1AA420F9C5FA7E6D4D10E /* SQAfficheView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F48DB7E78A7E824FCBB68086B7AA483 /* SQAfficheView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C8E50AAECE31048B3F2B5ACF603DD67 /* SQRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B6760273BD71EE05072F8F10798E91 /* SQRouter.m */; };
 		81B3301B3CD128545C3040B19B7F1720 /* Pods-SQKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FBE7D28F6AB4DF0710DDD6502C7A1F /* Pods-SQKit_Example-dummy.m */; };
-		8ADF9AFE1F00AB5F0059E525 /* NSNull+SQExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ADF9AF11F00AB5F0059E525 /* NSNull+SQExtension.h */; };
-		8ADF9AFF1F00AB5F0059E525 /* NSNull+SQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADF9AF21F00AB5F0059E525 /* NSNull+SQExtension.m */; };
-		8ADF9B001F00AB5F0059E525 /* NSObject+SQExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ADF9AF31F00AB5F0059E525 /* NSObject+SQExtension.h */; };
-		8ADF9B011F00AB5F0059E525 /* NSObject+SQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADF9AF41F00AB5F0059E525 /* NSObject+SQExtension.m */; };
-		8ADF9B021F00AB5F0059E525 /* UIButton+SQExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ADF9AF51F00AB5F0059E525 /* UIButton+SQExtension.h */; };
-		8ADF9B031F00AB5F0059E525 /* UIButton+SQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADF9AF61F00AB5F0059E525 /* UIButton+SQExtension.m */; };
-		8ADF9B041F00AB5F0059E525 /* UIImage+SQExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ADF9AF71F00AB5F0059E525 /* UIImage+SQExtension.h */; };
-		8ADF9B051F00AB5F0059E525 /* UIImage+SQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADF9AF81F00AB5F0059E525 /* UIImage+SQExtension.m */; };
-		8ADF9B061F00AB5F0059E525 /* UIView+SQExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ADF9AF91F00AB5F0059E525 /* UIView+SQExtension.h */; };
-		8ADF9B071F00AB5F0059E525 /* UIView+SQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADF9AFA1F00AB5F0059E525 /* UIView+SQExtension.m */; };
-		8ADF9B081F00AB5F0059E525 /* UIViewController+SQExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ADF9AFB1F00AB5F0059E525 /* UIViewController+SQExtension.h */; };
-		8ADF9B091F00AB5F0059E525 /* UIViewController+SQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADF9AFC1F00AB5F0059E525 /* UIViewController+SQExtension.m */; };
-		8ADF9B0D1F00ACA40059E525 /* SQAlertController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ADF9B0B1F00ACA40059E525 /* SQAlertController.h */; };
-		8ADF9B0E1F00ACA40059E525 /* SQAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADF9B0C1F00ACA40059E525 /* SQAlertController.m */; };
-		8ADF9B111F00ACCC0059E525 /* SQRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ADF9B0F1F00ACCC0059E525 /* SQRouter.h */; };
-		8ADF9B121F00ACCC0059E525 /* SQRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADF9B101F00ACCC0059E525 /* SQRouter.m */; };
-		8ADF9B151F00AD380059E525 /* SQTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ADF9B131F00AD380059E525 /* SQTabBarController.h */; };
-		8ADF9B161F00AD380059E525 /* SQTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADF9B141F00AD380059E525 /* SQTabBarController.m */; };
-		8ADF9B191F00AD560059E525 /* SQNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ADF9B171F00AD560059E525 /* SQNavigationController.h */; };
-		8ADF9B1A1F00AD560059E525 /* SQNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADF9B181F00AD560059E525 /* SQNavigationController.m */; };
-		8ADF9B1D1F00ADD00059E525 /* SQPush.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ADF9B1B1F00ADD00059E525 /* SQPush.h */; };
-		8ADF9B1E1F00ADD00059E525 /* SQPush.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADF9B1C1F00ADD00059E525 /* SQPush.m */; };
-		8ADF9B211F00AF700059E525 /* SQAfficheView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ADF9B1F1F00AF700059E525 /* SQAfficheView.h */; };
-		8ADF9B221F00AF700059E525 /* SQAfficheView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADF9B201F00AF700059E525 /* SQAfficheView.m */; };
-		8ADF9B251F00AFA40059E525 /* NSTimer+SQExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ADF9B231F00AFA40059E525 /* NSTimer+SQExtension.h */; };
-		8ADF9B261F00AFA40059E525 /* NSTimer+SQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADF9B241F00AFA40059E525 /* NSTimer+SQExtension.m */; };
-		8ADF9B2D1F00B0EE0059E525 /* NSUserDefaults+SQExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ADF9B2B1F00B0EE0059E525 /* NSUserDefaults+SQExtension.h */; };
-		8ADF9B2E1F00B0EE0059E525 /* NSUserDefaults+SQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADF9B2C1F00B0EE0059E525 /* NSUserDefaults+SQExtension.m */; };
-		8ADF9B311F00B1880059E525 /* SQIconButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ADF9B2F1F00B1880059E525 /* SQIconButton.h */; };
-		8ADF9B321F00B1880059E525 /* SQIconButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADF9B301F00B1880059E525 /* SQIconButton.m */; };
-		8ADF9B351F00B2450059E525 /* NSString+SQExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ADF9B331F00B2450059E525 /* NSString+SQExtension.h */; };
-		8ADF9B361F00B2450059E525 /* NSString+SQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADF9B341F00B2450059E525 /* NSString+SQExtension.m */; };
-		8ADF9B391F00B27B0059E525 /* UITextField+SQExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ADF9B371F00B27B0059E525 /* UITextField+SQExtension.h */; };
-		8ADF9B3A1F00B27B0059E525 /* UITextField+SQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADF9B381F00B27B0059E525 /* UITextField+SQExtension.m */; };
-		8ADF9B3D1F00B29C0059E525 /* UITextView+SQExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ADF9B3B1F00B29C0059E525 /* UITextView+SQExtension.h */; };
-		8ADF9B3E1F00B29C0059E525 /* UITextView+SQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADF9B3C1F00B29C0059E525 /* UITextView+SQExtension.m */; };
-		8ADF9B411F00B31D0059E525 /* SQCountTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ADF9B3F1F00B31D0059E525 /* SQCountTextView.h */; };
-		8ADF9B421F00B31D0059E525 /* SQCountTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADF9B401F00B31D0059E525 /* SQCountTextView.m */; };
-		8ADF9B451F00B3F20059E525 /* UILabel+SQExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ADF9B431F00B3F20059E525 /* UILabel+SQExtension.h */; };
-		8ADF9B461F00B3F20059E525 /* UILabel+SQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADF9B441F00B3F20059E525 /* UILabel+SQExtension.m */; };
-		8ADF9B4D1F00B4700059E525 /* UITableViewCell+SQExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ADF9B4B1F00B4700059E525 /* UITableViewCell+SQExtension.h */; };
-		8ADF9B4E1F00B4700059E525 /* UITableViewCell+SQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADF9B4C1F00B4700059E525 /* UITableViewCell+SQExtension.m */; };
-		8ADF9B551F00B5120059E525 /* UICollectionReusableView+SQExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ADF9B531F00B5120059E525 /* UICollectionReusableView+SQExtension.h */; };
-		8ADF9B561F00B5120059E525 /* UICollectionReusableView+SQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADF9B541F00B5120059E525 /* UICollectionReusableView+SQExtension.m */; };
+		8358E37D7CC8E0FA2CE5059F80FC0171 /* UIViewController+SQExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = EB5255707189275321F817D64C10B569 /* UIViewController+SQExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83B14A662CEA7AA727B944DB3FFC7E89 /* UIImage+SQExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 650167348C6D40A82875C415991CCEF8 /* UIImage+SQExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A50B7D91F0382F50093EB2B /* NSJSONSerialization+SQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A50B7D71F0382F50093EB2B /* NSJSONSerialization+SQExtension.m */; };
+		97CD09766756A57141ACEC74B98099D6 /* SQAlertController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F0153859AF6B6235F2C1C6FFC78FE69 /* SQAlertController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A0EFE61BA17658F75AE1A645C4CF2CCB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A1631235E6EDB85438E904B72CB837AC /* UIButton+SQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 368991D7046CC0C972B809A191733F29 /* UIButton+SQExtension.m */; };
+		A45438DC1F35749AD1A8F1226CB077D0 /* UITextView+SQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A905BAA6EEC129D2E7B4DCE3BC9D5BD /* UITextView+SQExtension.m */; };
+		AF8AAD411F269A154A9F0E58FCE38C65 /* UIViewController+SQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 81EA76518E1FCDBA9F82E869E04C7C05 /* UIViewController+SQExtension.m */; };
+		B0134CD273E7C450A05B6F687F10F416 /* NSObject+SQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F0EF9CEE93D9C1563CF6A4311AAA30 /* NSObject+SQExtension.m */; };
+		B6ACEEC4EC7611375E1DAA9F860B94F6 /* UITableViewCell+SQExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = B54DDDF6B83AB4428BE1C8992DC1F134 /* UITableViewCell+SQExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C37FA4286084A56AEFFED764DA069188 /* UITextField+SQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B66A775E3AC0097DB7615A1E58112F1C /* UITextField+SQExtension.m */; };
+		CDE60E10DBA0569EE66D38993EC9F3AE /* SQPush.h in Headers */ = {isa = PBXBuildFile; fileRef = FC55B0D9F9E205F6CA33CA7CD4DA1840 /* SQPush.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF7450887DB85E517084BA8B7DDF7F32 /* SQCountTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5EEB65259FC52E6B4CC1DEED70E76A4 /* SQCountTextView.m */; };
+		D43B46915C5AF79CBBD139F807EBA942 /* NSTimer+SQExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = F23974101532CC8DF1CC05B69A2C5E20 /* NSTimer+SQExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF0463FD4F76465605C278A18B3FEDFF /* SQCountTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 200FD136A16C0AF161FC1BC124C9963F /* SQCountTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4394AD94B72A012114C96014BF950D0 /* NSNull+SQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E7E67EA40969BF7BE7606A3C7CFAA1D /* NSNull+SQExtension.m */; };
+		E5146555817F5A38D791D28D7CEE1397 /* SQNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 30897780ADB670A0F6E3BF004A9D8EBE /* SQNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB6B31FA8A3B6589EA3BDBEE0D8765E5 /* SQKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D601CA4A3283F59239D12842926E55F4 /* SQKit-dummy.m */; };
+		F29B432502B5FBFB352E2D114ECC57DA /* NSUserDefaults+SQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 372953BE168566C2716E782C32E491B6 /* NSUserDefaults+SQExtension.m */; };
 		F3354759AF21644F4B8524DB478D066E /* Pods-SQKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5568A6B9952ADE60125A92D76C8D972D /* Pods-SQKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F52B77238A5FA2E94AB4C70F232F6546 /* UITableViewCell+SQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6166B3EF74E5D9A4243DE520C247CA /* UITableViewCell+SQExtension.m */; };
+		FA596DCF9A0D635BB99FC0292DE0E8E7 /* UILabel+SQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA431926431D51D87FF705F9A754134 /* UILabel+SQExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,71 +71,71 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09A4BD535C58888EAEC4D71A22974C6E /* UICollectionReusableView+SQExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UICollectionReusableView+SQExtension.m"; sourceTree = "<group>"; };
+		0E8BD6C7EB23C960E794C92DB8F281C5 /* SQIconButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SQIconButton.h; sourceTree = "<group>"; };
+		1A905BAA6EEC129D2E7B4DCE3BC9D5BD /* UITextView+SQExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextView+SQExtension.m"; sourceTree = "<group>"; };
+		1E7E67EA40969BF7BE7606A3C7CFAA1D /* NSNull+SQExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSNull+SQExtension.m"; sourceTree = "<group>"; };
+		1F0153859AF6B6235F2C1C6FFC78FE69 /* SQAlertController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SQAlertController.h; sourceTree = "<group>"; };
+		200FD136A16C0AF161FC1BC124C9963F /* SQCountTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SQCountTextView.h; sourceTree = "<group>"; };
+		2717BE44257CCFD98EE528BFFBB3D670 /* UIButton+SQExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+SQExtension.h"; sourceTree = "<group>"; };
+		2992FBF02349B44D6B68728E2258A2FB /* NSTimer+SQExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+SQExtension.m"; sourceTree = "<group>"; };
+		30897780ADB670A0F6E3BF004A9D8EBE /* SQNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SQNavigationController.h; sourceTree = "<group>"; };
 		308FE59E747571E0A4268ADF3F8B073B /* SQKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQKit-prefix.pch"; sourceTree = "<group>"; };
+		368991D7046CC0C972B809A191733F29 /* UIButton+SQExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+SQExtension.m"; sourceTree = "<group>"; };
+		372953BE168566C2716E782C32E491B6 /* NSUserDefaults+SQExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+SQExtension.m"; sourceTree = "<group>"; };
 		3B5B8FACA3ED7140348B66259CAB521F /* SQKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SQKit.modulemap; sourceTree = "<group>"; };
+		42DF8666ECA0D849B8ED47A84413D1BA /* NSString+SQExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+SQExtension.m"; sourceTree = "<group>"; };
+		43D40DF765FAE84850F37871AC393A63 /* NSNull+SQExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSNull+SQExtension.h"; sourceTree = "<group>"; };
 		469FFCFDEE5A50119A6CEAC31D251737 /* Pods-SQKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SQKit_Example-resources.sh"; sourceTree = "<group>"; };
 		49EADF46571FD8B5323F8E9724A1DF5D /* Pods-SQKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SQKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		50E84FD641AD712D2D08CD290EAF6DF1 /* Pods-SQKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SQKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		52DFE3BED1E3023E003F8DBA0FBBDE91 /* Pods-SQKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SQKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		534C0F58F2524CC78FAE9EBE1C967B16 /* SQTabBarController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SQTabBarController.h; sourceTree = "<group>"; };
 		53FBE7D28F6AB4DF0710DDD6502C7A1F /* Pods-SQKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SQKit_Example-dummy.m"; sourceTree = "<group>"; };
 		5568A6B9952ADE60125A92D76C8D972D /* Pods-SQKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SQKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		5D6166B3EF74E5D9A4243DE520C247CA /* UITableViewCell+SQExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+SQExtension.m"; sourceTree = "<group>"; };
 		60585C2EBC5C4DF9736994EFF79E0A18 /* Pods-SQKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SQKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		650167348C6D40A82875C415991CCEF8 /* UIImage+SQExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+SQExtension.h"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		68E994524C6AEAC1D23C6996CFFE3E62 /* SQRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SQRouter.h; sourceTree = "<group>"; };
+		74FA4CB18B071F0E5E530BF2B69E2F32 /* UIView+SQExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+SQExtension.h"; sourceTree = "<group>"; };
+		7584869D14D6E29798A4A11A6D87DCCF /* SQNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SQNavigationController.m; sourceTree = "<group>"; };
+		7F39E8B2F2A24A8BEF7749AFA8D797F8 /* SQTabBarController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SQTabBarController.m; sourceTree = "<group>"; };
+		8026988913C51BDD991D6D71A180B5E8 /* UILabel+SQExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UILabel+SQExtension.h"; sourceTree = "<group>"; };
+		81EA76518E1FCDBA9F82E869E04C7C05 /* UIViewController+SQExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+SQExtension.m"; sourceTree = "<group>"; };
+		8233BCFF425030CF95F6273779BFC7B6 /* NSObject+SQExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+SQExtension.h"; sourceTree = "<group>"; };
+		83B6760273BD71EE05072F8F10798E91 /* SQRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SQRouter.m; sourceTree = "<group>"; };
+		844592CECEB02C5986D86EDEECCFEF3D /* NSString+SQExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+SQExtension.h"; sourceTree = "<group>"; };
 		87391CE9FF986DF6FA6F458AC1191E2D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8ADF9AF11F00AB5F0059E525 /* NSNull+SQExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNull+SQExtension.h"; sourceTree = "<group>"; };
-		8ADF9AF21F00AB5F0059E525 /* NSNull+SQExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNull+SQExtension.m"; sourceTree = "<group>"; };
-		8ADF9AF31F00AB5F0059E525 /* NSObject+SQExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SQExtension.h"; sourceTree = "<group>"; };
-		8ADF9AF41F00AB5F0059E525 /* NSObject+SQExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SQExtension.m"; sourceTree = "<group>"; };
-		8ADF9AF51F00AB5F0059E525 /* UIButton+SQExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+SQExtension.h"; sourceTree = "<group>"; };
-		8ADF9AF61F00AB5F0059E525 /* UIButton+SQExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+SQExtension.m"; sourceTree = "<group>"; };
-		8ADF9AF71F00AB5F0059E525 /* UIImage+SQExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+SQExtension.h"; sourceTree = "<group>"; };
-		8ADF9AF81F00AB5F0059E525 /* UIImage+SQExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SQExtension.m"; sourceTree = "<group>"; };
-		8ADF9AF91F00AB5F0059E525 /* UIView+SQExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SQExtension.h"; sourceTree = "<group>"; };
-		8ADF9AFA1F00AB5F0059E525 /* UIView+SQExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SQExtension.m"; sourceTree = "<group>"; };
-		8ADF9AFB1F00AB5F0059E525 /* UIViewController+SQExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+SQExtension.h"; sourceTree = "<group>"; };
-		8ADF9AFC1F00AB5F0059E525 /* UIViewController+SQExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+SQExtension.m"; sourceTree = "<group>"; };
-		8ADF9B0A1F00ABC20059E525 /* SQKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQKit.h; sourceTree = "<group>"; };
-		8ADF9B0B1F00ACA40059E525 /* SQAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQAlertController.h; sourceTree = "<group>"; };
-		8ADF9B0C1F00ACA40059E525 /* SQAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQAlertController.m; sourceTree = "<group>"; };
-		8ADF9B0F1F00ACCC0059E525 /* SQRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQRouter.h; sourceTree = "<group>"; };
-		8ADF9B101F00ACCC0059E525 /* SQRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQRouter.m; sourceTree = "<group>"; };
-		8ADF9B131F00AD380059E525 /* SQTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQTabBarController.h; sourceTree = "<group>"; };
-		8ADF9B141F00AD380059E525 /* SQTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQTabBarController.m; sourceTree = "<group>"; };
-		8ADF9B171F00AD560059E525 /* SQNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQNavigationController.h; sourceTree = "<group>"; };
-		8ADF9B181F00AD560059E525 /* SQNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQNavigationController.m; sourceTree = "<group>"; };
-		8ADF9B1B1F00ADD00059E525 /* SQPush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQPush.h; sourceTree = "<group>"; };
-		8ADF9B1C1F00ADD00059E525 /* SQPush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQPush.m; sourceTree = "<group>"; };
-		8ADF9B1F1F00AF700059E525 /* SQAfficheView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQAfficheView.h; sourceTree = "<group>"; };
-		8ADF9B201F00AF700059E525 /* SQAfficheView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQAfficheView.m; sourceTree = "<group>"; };
-		8ADF9B231F00AFA40059E525 /* NSTimer+SQExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+SQExtension.h"; sourceTree = "<group>"; };
-		8ADF9B241F00AFA40059E525 /* NSTimer+SQExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+SQExtension.m"; sourceTree = "<group>"; };
-		8ADF9B2B1F00B0EE0059E525 /* NSUserDefaults+SQExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+SQExtension.h"; sourceTree = "<group>"; };
-		8ADF9B2C1F00B0EE0059E525 /* NSUserDefaults+SQExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+SQExtension.m"; sourceTree = "<group>"; };
-		8ADF9B2F1F00B1880059E525 /* SQIconButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQIconButton.h; sourceTree = "<group>"; };
-		8ADF9B301F00B1880059E525 /* SQIconButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQIconButton.m; sourceTree = "<group>"; };
-		8ADF9B331F00B2450059E525 /* NSString+SQExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SQExtension.h"; sourceTree = "<group>"; };
-		8ADF9B341F00B2450059E525 /* NSString+SQExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SQExtension.m"; sourceTree = "<group>"; };
-		8ADF9B371F00B27B0059E525 /* UITextField+SQExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+SQExtension.h"; sourceTree = "<group>"; };
-		8ADF9B381F00B27B0059E525 /* UITextField+SQExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+SQExtension.m"; sourceTree = "<group>"; };
-		8ADF9B3B1F00B29C0059E525 /* UITextView+SQExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+SQExtension.h"; sourceTree = "<group>"; };
-		8ADF9B3C1F00B29C0059E525 /* UITextView+SQExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+SQExtension.m"; sourceTree = "<group>"; };
-		8ADF9B3F1F00B31D0059E525 /* SQCountTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQCountTextView.h; sourceTree = "<group>"; };
-		8ADF9B401F00B31D0059E525 /* SQCountTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQCountTextView.m; sourceTree = "<group>"; };
-		8ADF9B431F00B3F20059E525 /* UILabel+SQExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+SQExtension.h"; sourceTree = "<group>"; };
-		8ADF9B441F00B3F20059E525 /* UILabel+SQExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+SQExtension.m"; sourceTree = "<group>"; };
-		8ADF9B4B1F00B4700059E525 /* UITableViewCell+SQExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+SQExtension.h"; sourceTree = "<group>"; };
-		8ADF9B4C1F00B4700059E525 /* UITableViewCell+SQExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+SQExtension.m"; sourceTree = "<group>"; };
-		8ADF9B531F00B5120059E525 /* UICollectionReusableView+SQExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionReusableView+SQExtension.h"; sourceTree = "<group>"; };
-		8ADF9B541F00B5120059E525 /* UICollectionReusableView+SQExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionReusableView+SQExtension.m"; sourceTree = "<group>"; };
+		8A50B7D71F0382F50093EB2B /* NSJSONSerialization+SQExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSJSONSerialization+SQExtension.m"; sourceTree = "<group>"; };
 		8FBFEA96FABD4051EC0854346C548E67 /* Pods_SQKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SQKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94DBC2C04322DE405A77AC559B15ED13 /* UIImage+SQExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SQExtension.m"; sourceTree = "<group>"; };
+		9776766DE96DE7055C0989B40A33B57C /* UICollectionReusableView+SQExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UICollectionReusableView+SQExtension.h"; sourceTree = "<group>"; };
+		9F48DB7E78A7E824FCBB68086B7AA483 /* SQAfficheView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SQAfficheView.h; sourceTree = "<group>"; };
+		A0F0EF9CEE93D9C1563CF6A4311AAA30 /* NSObject+SQExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SQExtension.m"; sourceTree = "<group>"; };
+		A68331ABBA31B21BE71D85D1C7FD653A /* UITextView+SQExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextView+SQExtension.h"; sourceTree = "<group>"; };
+		A77CEBB61C74AC1FF4BB0A9D7FF5FCE1 /* NSUserDefaults+SQExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+SQExtension.h"; sourceTree = "<group>"; };
+		A9B896781846D239E48DC43BE869EBE1 /* SQPush.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SQPush.m; sourceTree = "<group>"; };
 		AA8B4525CC9A5F30106B7DE84B4D5021 /* SQKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SQKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEFF50E19074A27B5BAA243CEF0664A9 /* SQAlertController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SQAlertController.m; sourceTree = "<group>"; };
+		B3C19798A86EF6B4B09D17F4DCEFFEA4 /* UIView+SQExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+SQExtension.m"; sourceTree = "<group>"; };
+		B54DDDF6B83AB4428BE1C8992DC1F134 /* UITableViewCell+SQExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+SQExtension.h"; sourceTree = "<group>"; };
+		B66A775E3AC0097DB7615A1E58112F1C /* UITextField+SQExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextField+SQExtension.m"; sourceTree = "<group>"; };
 		D601CA4A3283F59239D12842926E55F4 /* SQKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SQKit-dummy.m"; sourceTree = "<group>"; };
+		DEA431926431D51D87FF705F9A754134 /* UILabel+SQExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UILabel+SQExtension.m"; sourceTree = "<group>"; };
 		E857578C51362B97EFC593CFEC4A7004 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8F04BEE8E76CB74F08CCFD8C578C1D5 /* SQAfficheView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SQAfficheView.m; sourceTree = "<group>"; };
+		EB5255707189275321F817D64C10B569 /* UIViewController+SQExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+SQExtension.h"; sourceTree = "<group>"; };
+		ECC79DE823219E6995FEA402F0BA9331 /* SQIconButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SQIconButton.m; sourceTree = "<group>"; };
 		EE2F032AC261D740C9D1C8412484B5DC /* SQKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SQKit.xcconfig; sourceTree = "<group>"; };
+		F23974101532CC8DF1CC05B69A2C5E20 /* NSTimer+SQExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSTimer+SQExtension.h"; sourceTree = "<group>"; };
 		F5A140F10FDB4F40915AD698CA2E0714 /* Pods-SQKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SQKit_Example.modulemap"; sourceTree = "<group>"; };
+		F5DAE49C4E3F306451C132B318E9AB8A /* UITextField+SQExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextField+SQExtension.h"; sourceTree = "<group>"; };
+		F5EEB65259FC52E6B4CC1DEED70E76A4 /* SQCountTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SQCountTextView.m; sourceTree = "<group>"; };
 		F79A34567C9D2E721C7B1A24717350C3 /* SQKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQKit-umbrella.h"; sourceTree = "<group>"; };
 		FADE17EFAAED19198E93306EEB1222CE /* Pods-SQKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SQKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FC55B0D9F9E205F6CA33CA7CD4DA1840 /* SQPush.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SQPush.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,16 +167,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3AAA4C193922A69BE58C0D66A12C303B /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				8ADF9B0A1F00ABC20059E525 /* SQKit.h */,
-				8ADF9AF01F00AB5F0059E525 /* Extension */,
-				8ADF9AFD1F00AB5F0059E525 /* Class */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		6C4B60EF9F243EAB3ECD7466179F5D04 /* Pods-SQKit_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -194,14 +185,6 @@
 			path = "Target Support Files/Pods-SQKit_Example";
 			sourceTree = "<group>";
 		};
-		6DA82CFEDE0C8CC83EAAC834BFCF4236 /* SQKit */ = {
-			isa = PBXGroup;
-			children = (
-				3AAA4C193922A69BE58C0D66A12C303B /* Classes */,
-			);
-			path = SQKit;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
@@ -213,62 +196,49 @@
 			);
 			sourceTree = "<group>";
 		};
-		8ADF9AF01F00AB5F0059E525 /* Extension */ = {
+		96B712CCA2C3D1953603590D3C9EDCB6 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				8ADF9AF11F00AB5F0059E525 /* NSNull+SQExtension.h */,
-				8ADF9AF21F00AB5F0059E525 /* NSNull+SQExtension.m */,
-				8ADF9AF31F00AB5F0059E525 /* NSObject+SQExtension.h */,
-				8ADF9AF41F00AB5F0059E525 /* NSObject+SQExtension.m */,
-				8ADF9AF51F00AB5F0059E525 /* UIButton+SQExtension.h */,
-				8ADF9AF61F00AB5F0059E525 /* UIButton+SQExtension.m */,
-				8ADF9AF71F00AB5F0059E525 /* UIImage+SQExtension.h */,
-				8ADF9AF81F00AB5F0059E525 /* UIImage+SQExtension.m */,
-				8ADF9AF91F00AB5F0059E525 /* UIView+SQExtension.h */,
-				8ADF9AFA1F00AB5F0059E525 /* UIView+SQExtension.m */,
-				8ADF9AFB1F00AB5F0059E525 /* UIViewController+SQExtension.h */,
-				8ADF9AFC1F00AB5F0059E525 /* UIViewController+SQExtension.m */,
-				8ADF9B231F00AFA40059E525 /* NSTimer+SQExtension.h */,
-				8ADF9B241F00AFA40059E525 /* NSTimer+SQExtension.m */,
-				8ADF9B2B1F00B0EE0059E525 /* NSUserDefaults+SQExtension.h */,
-				8ADF9B2C1F00B0EE0059E525 /* NSUserDefaults+SQExtension.m */,
-				8ADF9B331F00B2450059E525 /* NSString+SQExtension.h */,
-				8ADF9B341F00B2450059E525 /* NSString+SQExtension.m */,
-				8ADF9B371F00B27B0059E525 /* UITextField+SQExtension.h */,
-				8ADF9B381F00B27B0059E525 /* UITextField+SQExtension.m */,
-				8ADF9B3B1F00B29C0059E525 /* UITextView+SQExtension.h */,
-				8ADF9B3C1F00B29C0059E525 /* UITextView+SQExtension.m */,
-				8ADF9B431F00B3F20059E525 /* UILabel+SQExtension.h */,
-				8ADF9B441F00B3F20059E525 /* UILabel+SQExtension.m */,
-				8ADF9B4B1F00B4700059E525 /* UITableViewCell+SQExtension.h */,
-				8ADF9B4C1F00B4700059E525 /* UITableViewCell+SQExtension.m */,
-				8ADF9B531F00B5120059E525 /* UICollectionReusableView+SQExtension.h */,
-				8ADF9B541F00B5120059E525 /* UICollectionReusableView+SQExtension.m */,
+				D24B31C5501B71C5EA6D80B8C5510340 /* Class */,
+				9BD3F040345CFD1135F818DCB7B27038 /* Extension */,
 			);
-			path = Extension;
+			path = Classes;
 			sourceTree = "<group>";
 		};
-		8ADF9AFD1F00AB5F0059E525 /* Class */ = {
+		9BD3F040345CFD1135F818DCB7B27038 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				8ADF9B1B1F00ADD00059E525 /* SQPush.h */,
-				8ADF9B1C1F00ADD00059E525 /* SQPush.m */,
-				8ADF9B0F1F00ACCC0059E525 /* SQRouter.h */,
-				8ADF9B101F00ACCC0059E525 /* SQRouter.m */,
-				8ADF9B1F1F00AF700059E525 /* SQAfficheView.h */,
-				8ADF9B201F00AF700059E525 /* SQAfficheView.m */,
-				8ADF9B0B1F00ACA40059E525 /* SQAlertController.h */,
-				8ADF9B0C1F00ACA40059E525 /* SQAlertController.m */,
-				8ADF9B131F00AD380059E525 /* SQTabBarController.h */,
-				8ADF9B141F00AD380059E525 /* SQTabBarController.m */,
-				8ADF9B171F00AD560059E525 /* SQNavigationController.h */,
-				8ADF9B181F00AD560059E525 /* SQNavigationController.m */,
-				8ADF9B2F1F00B1880059E525 /* SQIconButton.h */,
-				8ADF9B301F00B1880059E525 /* SQIconButton.m */,
-				8ADF9B3F1F00B31D0059E525 /* SQCountTextView.h */,
-				8ADF9B401F00B31D0059E525 /* SQCountTextView.m */,
+				43D40DF765FAE84850F37871AC393A63 /* NSNull+SQExtension.h */,
+				1E7E67EA40969BF7BE7606A3C7CFAA1D /* NSNull+SQExtension.m */,
+				8233BCFF425030CF95F6273779BFC7B6 /* NSObject+SQExtension.h */,
+				A0F0EF9CEE93D9C1563CF6A4311AAA30 /* NSObject+SQExtension.m */,
+				844592CECEB02C5986D86EDEECCFEF3D /* NSString+SQExtension.h */,
+				42DF8666ECA0D849B8ED47A84413D1BA /* NSString+SQExtension.m */,
+				F23974101532CC8DF1CC05B69A2C5E20 /* NSTimer+SQExtension.h */,
+				2992FBF02349B44D6B68728E2258A2FB /* NSTimer+SQExtension.m */,
+				A77CEBB61C74AC1FF4BB0A9D7FF5FCE1 /* NSUserDefaults+SQExtension.h */,
+				372953BE168566C2716E782C32E491B6 /* NSUserDefaults+SQExtension.m */,
+				2717BE44257CCFD98EE528BFFBB3D670 /* UIButton+SQExtension.h */,
+				368991D7046CC0C972B809A191733F29 /* UIButton+SQExtension.m */,
+				9776766DE96DE7055C0989B40A33B57C /* UICollectionReusableView+SQExtension.h */,
+				09A4BD535C58888EAEC4D71A22974C6E /* UICollectionReusableView+SQExtension.m */,
+				650167348C6D40A82875C415991CCEF8 /* UIImage+SQExtension.h */,
+				94DBC2C04322DE405A77AC559B15ED13 /* UIImage+SQExtension.m */,
+				8026988913C51BDD991D6D71A180B5E8 /* UILabel+SQExtension.h */,
+				DEA431926431D51D87FF705F9A754134 /* UILabel+SQExtension.m */,
+				B54DDDF6B83AB4428BE1C8992DC1F134 /* UITableViewCell+SQExtension.h */,
+				5D6166B3EF74E5D9A4243DE520C247CA /* UITableViewCell+SQExtension.m */,
+				F5DAE49C4E3F306451C132B318E9AB8A /* UITextField+SQExtension.h */,
+				B66A775E3AC0097DB7615A1E58112F1C /* UITextField+SQExtension.m */,
+				A68331ABBA31B21BE71D85D1C7FD653A /* UITextView+SQExtension.h */,
+				1A905BAA6EEC129D2E7B4DCE3BC9D5BD /* UITextView+SQExtension.m */,
+				74FA4CB18B071F0E5E530BF2B69E2F32 /* UIView+SQExtension.h */,
+				B3C19798A86EF6B4B09D17F4DCEFFEA4 /* UIView+SQExtension.m */,
+				EB5255707189275321F817D64C10B569 /* UIViewController+SQExtension.h */,
+				81EA76518E1FCDBA9F82E869E04C7C05 /* UIViewController+SQExtension.m */,
+				8A50B7D71F0382F50093EB2B /* NSJSONSerialization+SQExtension.m */,
 			);
-			path = Class;
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		A6D6BD9BA33FBE65BE6EBF409B3A659F /* Support Files */ = {
@@ -288,7 +258,7 @@
 		B915968DD14959710315F99930324AC5 /* SQKit */ = {
 			isa = PBXGroup;
 			children = (
-				6DA82CFEDE0C8CC83EAAC834BFCF4236 /* SQKit */,
+				E9314A9F9440074096C12EB7451DD90D /* SQKit */,
 				A6D6BD9BA33FBE65BE6EBF409B3A659F /* Support Files */,
 			);
 			name = SQKit;
@@ -311,12 +281,43 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D24B31C5501B71C5EA6D80B8C5510340 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				9F48DB7E78A7E824FCBB68086B7AA483 /* SQAfficheView.h */,
+				E8F04BEE8E76CB74F08CCFD8C578C1D5 /* SQAfficheView.m */,
+				1F0153859AF6B6235F2C1C6FFC78FE69 /* SQAlertController.h */,
+				AEFF50E19074A27B5BAA243CEF0664A9 /* SQAlertController.m */,
+				200FD136A16C0AF161FC1BC124C9963F /* SQCountTextView.h */,
+				F5EEB65259FC52E6B4CC1DEED70E76A4 /* SQCountTextView.m */,
+				0E8BD6C7EB23C960E794C92DB8F281C5 /* SQIconButton.h */,
+				ECC79DE823219E6995FEA402F0BA9331 /* SQIconButton.m */,
+				30897780ADB670A0F6E3BF004A9D8EBE /* SQNavigationController.h */,
+				7584869D14D6E29798A4A11A6D87DCCF /* SQNavigationController.m */,
+				FC55B0D9F9E205F6CA33CA7CD4DA1840 /* SQPush.h */,
+				A9B896781846D239E48DC43BE869EBE1 /* SQPush.m */,
+				68E994524C6AEAC1D23C6996CFFE3E62 /* SQRouter.h */,
+				83B6760273BD71EE05072F8F10798E91 /* SQRouter.m */,
+				534C0F58F2524CC78FAE9EBE1C967B16 /* SQTabBarController.h */,
+				7F39E8B2F2A24A8BEF7749AFA8D797F8 /* SQTabBarController.m */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		E9314A9F9440074096C12EB7451DD90D /* SQKit */ = {
+			isa = PBXGroup;
+			children = (
+				96B712CCA2C3D1953603590D3C9EDCB6 /* Classes */,
+			);
+			path = SQKit;
 			sourceTree = "<group>";
 		};
 		EDEF9A0315961DAA1B72BB6844BF6858 /* Targets Support Files */ = {
@@ -338,33 +339,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D7924B7C8B4DADD69E0DCDF410279DEC /* Headers */ = {
+		C811FEE8F7A38791F8970134F142DBB9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8ADF9B391F00B27B0059E525 /* UITextField+SQExtension.h in Headers */,
-				8ADF9B151F00AD380059E525 /* SQTabBarController.h in Headers */,
-				8ADF9AFE1F00AB5F0059E525 /* NSNull+SQExtension.h in Headers */,
-				8ADF9B0D1F00ACA40059E525 /* SQAlertController.h in Headers */,
-				8ADF9B411F00B31D0059E525 /* SQCountTextView.h in Headers */,
-				8ADF9B001F00AB5F0059E525 /* NSObject+SQExtension.h in Headers */,
-				8ADF9B021F00AB5F0059E525 /* UIButton+SQExtension.h in Headers */,
-				4F858BB669EB2D930F446298FEEBDC66 /* SQKit-umbrella.h in Headers */,
-				8ADF9B3D1F00B29C0059E525 /* UITextView+SQExtension.h in Headers */,
-				8ADF9B1D1F00ADD00059E525 /* SQPush.h in Headers */,
-				8ADF9B4D1F00B4700059E525 /* UITableViewCell+SQExtension.h in Headers */,
-				8ADF9B351F00B2450059E525 /* NSString+SQExtension.h in Headers */,
-				8ADF9B041F00AB5F0059E525 /* UIImage+SQExtension.h in Headers */,
-				8ADF9B451F00B3F20059E525 /* UILabel+SQExtension.h in Headers */,
-				8ADF9B2D1F00B0EE0059E525 /* NSUserDefaults+SQExtension.h in Headers */,
-				8ADF9B081F00AB5F0059E525 /* UIViewController+SQExtension.h in Headers */,
-				8ADF9B061F00AB5F0059E525 /* UIView+SQExtension.h in Headers */,
-				8ADF9B191F00AD560059E525 /* SQNavigationController.h in Headers */,
-				8ADF9B111F00ACCC0059E525 /* SQRouter.h in Headers */,
-				8ADF9B311F00B1880059E525 /* SQIconButton.h in Headers */,
-				8ADF9B551F00B5120059E525 /* UICollectionReusableView+SQExtension.h in Headers */,
-				8ADF9B211F00AF700059E525 /* SQAfficheView.h in Headers */,
-				8ADF9B251F00AFA40059E525 /* NSTimer+SQExtension.h in Headers */,
+				60F339A298C142CF8378BDF8CF0F50A3 /* NSNull+SQExtension.h in Headers */,
+				13EB5A36559CE2B701396951ED8DC740 /* NSObject+SQExtension.h in Headers */,
+				5BFB46B69A0596B1F4244545B2771CF2 /* NSString+SQExtension.h in Headers */,
+				D43B46915C5AF79CBBD139F807EBA942 /* NSTimer+SQExtension.h in Headers */,
+				12A03B3074F6E940EADEFCCE3AC0D278 /* NSUserDefaults+SQExtension.h in Headers */,
+				6C53B41D1EE1AA420F9C5FA7E6D4D10E /* SQAfficheView.h in Headers */,
+				97CD09766756A57141ACEC74B98099D6 /* SQAlertController.h in Headers */,
+				DF0463FD4F76465605C278A18B3FEDFF /* SQCountTextView.h in Headers */,
+				22D8B4C740CF41322535192FA9CA1E86 /* SQIconButton.h in Headers */,
+				64EC55F106CF895F22903BDF5FE5C4D7 /* SQKit-umbrella.h in Headers */,
+				E5146555817F5A38D791D28D7CEE1397 /* SQNavigationController.h in Headers */,
+				CDE60E10DBA0569EE66D38993EC9F3AE /* SQPush.h in Headers */,
+				0337CBD69AF69A74B2A347F85CA94592 /* SQRouter.h in Headers */,
+				653BA2D3AE82394E4F85F52AB9CE2F93 /* SQTabBarController.h in Headers */,
+				550ABE1248A61B1D7AFFBA2222129E8C /* UIButton+SQExtension.h in Headers */,
+				3BA59B82F1675D2EFDDF0ED4D45E707E /* UICollectionReusableView+SQExtension.h in Headers */,
+				83B14A662CEA7AA727B944DB3FFC7E89 /* UIImage+SQExtension.h in Headers */,
+				02D535B1F0626742A4A40261B4C89021 /* UILabel+SQExtension.h in Headers */,
+				B6ACEEC4EC7611375E1DAA9F860B94F6 /* UITableViewCell+SQExtension.h in Headers */,
+				0D3D19C65B90921F2B4DAFA91779ECE7 /* UITextField+SQExtension.h in Headers */,
+				67A1F8B6FE27FD1EF991196B66F4AD83 /* UITextView+SQExtension.h in Headers */,
+				61630E096EA243C75B686657C522B550 /* UIView+SQExtension.h in Headers */,
+				8358E37D7CC8E0FA2CE5059F80FC0171 /* UIViewController+SQExtension.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,9 +376,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 68074475DF560CCC5EA319F40D53BAE0 /* Build configuration list for PBXNativeTarget "SQKit" */;
 			buildPhases = (
-				A04E48D3587FCD09B2E850DB81F17DE4 /* Sources */,
+				918CCC0102968579E5919B0A4D8FD11C /* Sources */,
 				DDA6ED2F19408C2B324927E2B7F899F2 /* Frameworks */,
-				D7924B7C8B4DADD69E0DCDF410279DEC /* Headers */,
+				C811FEE8F7A38791F8970134F142DBB9 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -412,10 +413,8 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = SQ;
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
-				ORGANIZATIONNAME = "";
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -444,33 +443,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A04E48D3587FCD09B2E850DB81F17DE4 /* Sources */ = {
+		918CCC0102968579E5919B0A4D8FD11C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8ADF9B561F00B5120059E525 /* UICollectionReusableView+SQExtension.m in Sources */,
-				8ADF9B071F00AB5F0059E525 /* UIView+SQExtension.m in Sources */,
-				8ADF9B4E1F00B4700059E525 /* UITableViewCell+SQExtension.m in Sources */,
-				8ADF9B091F00AB5F0059E525 /* UIViewController+SQExtension.m in Sources */,
-				8ADF9B321F00B1880059E525 /* SQIconButton.m in Sources */,
-				8ADF9B261F00AFA40059E525 /* NSTimer+SQExtension.m in Sources */,
-				8ADF9B2E1F00B0EE0059E525 /* NSUserDefaults+SQExtension.m in Sources */,
-				3EEEDC9D6C653A0EA5CBCE46C5AC5977 /* SQKit-dummy.m in Sources */,
-				8ADF9B121F00ACCC0059E525 /* SQRouter.m in Sources */,
-				8ADF9AFF1F00AB5F0059E525 /* NSNull+SQExtension.m in Sources */,
-				8ADF9B221F00AF700059E525 /* SQAfficheView.m in Sources */,
-				8ADF9B421F00B31D0059E525 /* SQCountTextView.m in Sources */,
-				8ADF9B3E1F00B29C0059E525 /* UITextView+SQExtension.m in Sources */,
-				8ADF9B361F00B2450059E525 /* NSString+SQExtension.m in Sources */,
-				8ADF9B161F00AD380059E525 /* SQTabBarController.m in Sources */,
-				8ADF9B1A1F00AD560059E525 /* SQNavigationController.m in Sources */,
-				8ADF9B1E1F00ADD00059E525 /* SQPush.m in Sources */,
-				8ADF9B461F00B3F20059E525 /* UILabel+SQExtension.m in Sources */,
-				8ADF9B011F00AB5F0059E525 /* NSObject+SQExtension.m in Sources */,
-				8ADF9B031F00AB5F0059E525 /* UIButton+SQExtension.m in Sources */,
-				8ADF9B3A1F00B27B0059E525 /* UITextField+SQExtension.m in Sources */,
-				8ADF9B0E1F00ACA40059E525 /* SQAlertController.m in Sources */,
-				8ADF9B051F00AB5F0059E525 /* UIImage+SQExtension.m in Sources */,
+				E4394AD94B72A012114C96014BF950D0 /* NSNull+SQExtension.m in Sources */,
+				B0134CD273E7C450A05B6F687F10F416 /* NSObject+SQExtension.m in Sources */,
+				2A994F0408E99125D62BEF099151F5A0 /* NSString+SQExtension.m in Sources */,
+				4B9034295F3E2C426422E14A82FBD5BA /* NSTimer+SQExtension.m in Sources */,
+				F29B432502B5FBFB352E2D114ECC57DA /* NSUserDefaults+SQExtension.m in Sources */,
+				3FE204E19B4F28AC309BAA8972ACD926 /* SQAfficheView.m in Sources */,
+				4BD96401FC41EED6749E6E3D1F80DDC6 /* SQAlertController.m in Sources */,
+				CF7450887DB85E517084BA8B7DDF7F32 /* SQCountTextView.m in Sources */,
+				64F8871ED1A1E5DE2A2A6D695D1A3D0F /* SQIconButton.m in Sources */,
+				EB6B31FA8A3B6589EA3BDBEE0D8765E5 /* SQKit-dummy.m in Sources */,
+				605B184E3B6C6E373077B97669517AE5 /* SQNavigationController.m in Sources */,
+				8A50B7D91F0382F50093EB2B /* NSJSONSerialization+SQExtension.m in Sources */,
+				2F161745E3846CB0A7C642410A0E49BD /* SQPush.m in Sources */,
+				7C8E50AAECE31048B3F2B5ACF603DD67 /* SQRouter.m in Sources */,
+				679EBCE2006C72DE90503F141075A1D6 /* SQTabBarController.m in Sources */,
+				A1631235E6EDB85438E904B72CB837AC /* UIButton+SQExtension.m in Sources */,
+				545F44DD0F6758951CC06BA926EA8C80 /* UICollectionReusableView+SQExtension.m in Sources */,
+				15644EF9207B54ABF5DE4E3CCB105A2D /* UIImage+SQExtension.m in Sources */,
+				FA596DCF9A0D635BB99FC0292DE0E8E7 /* UILabel+SQExtension.m in Sources */,
+				F52B77238A5FA2E94AB4C70F232F6546 /* UITableViewCell+SQExtension.m in Sources */,
+				C37FA4286084A56AEFFED764DA069188 /* UITextField+SQExtension.m in Sources */,
+				A45438DC1F35749AD1A8F1226CB077D0 /* UITextView+SQExtension.m in Sources */,
+				4431D094AEAC9A393554D35CD618C00C /* UIView+SQExtension.m in Sources */,
+				AF8AAD411F269A154A9F0E58FCE38C65 /* UIViewController+SQExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
+UIKIT_EXTERN NSString *const SQUserDefaultsSyncSuccessNotification;
+
 @interface NSUserDefaults (SQExtension)
 
 @end

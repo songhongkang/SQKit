@@ -10,4 +10,8 @@
 
 @interface SQPush : NSObject
 
++ (instancetype)shared;
+
+//- (void)observePushNotification
+
 @end

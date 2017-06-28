@@ -1,5 +1,5 @@
 PODS:
-  - SQKit (0.1.0)
+  - SQKit (0.0.1)
 
 DEPENDENCIES:
   - SQKit (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  SQKit: 297a0ecd34c0ad935909bccedfa3c99b848df6cc
+  SQKit: 03d2fa61d39c0f7eabe3af1b16067bce535a85df
 
 PODFILE CHECKSUM: 34845e15608998901da1b69500fdc20fcf22dff2
 

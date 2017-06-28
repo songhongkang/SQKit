@@ -10,4 +10,6 @@
 
 @interface UITextView (SQExtension)
 
+@property (nonatomic, copy, readonly) UILabel *sq_placeholderLabel;
+
 @end
